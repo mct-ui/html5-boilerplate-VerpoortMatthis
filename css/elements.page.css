@@ -5,9 +5,18 @@
 */
 
 html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+    color: #111;
+    padding: 24px 24px 0;
 
 }
 
+body{
+    max-width: 42em;
+    margin: 0 auto;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -16,9 +25,10 @@ html {
  */
 
 ::-moz-selection {
-
+   
 }
 
 ::selection {
-
+    background: #44C8F5;
+    color: white;
 }
